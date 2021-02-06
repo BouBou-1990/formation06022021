@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-06T09:23:22 CET" name="Default suite" finished-at="2021-02-06T09:25:34 CET" duration-ms="131674">
+    <groups>
+    </groups>
+    <test started-at="2021-02-06T09:23:22 CET" name="Default test" finished-at="2021-02-06T09:25:34 CET" duration-ms="131674">
+      <class name="pack.fcb1">
+        <test-method is-config="true" signature="avant()[pri:0, instance:pack.fcb1@5939a379]" started-at="2021-02-06T09:23:22 CET" name="avant" finished-at="2021-02-06T09:24:03 CET" duration-ms="40280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avant -->
+        <test-method signature="Test1(java.lang.String, java.lang.String)[pri:0, instance:pack.fcb1@5939a379]" started-at="2021-02-06T09:24:03 CET" name="Test1" data-provider="getdata" finished-at="2021-02-06T09:24:03 CET" duration-ms="333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mdp1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="avant()[pri:0, instance:pack.fcb1@5939a379]" started-at="2021-02-06T09:24:03 CET" name="avant" finished-at="2021-02-06T09:24:35 CET" duration-ms="31627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avant -->
+        <test-method signature="Test1(java.lang.String, java.lang.String)[pri:0, instance:pack.fcb1@5939a379]" started-at="2021-02-06T09:24:35 CET" name="Test1" data-provider="getdata" finished-at="2021-02-06T09:24:35 CET" duration-ms="127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mdp2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="avant()[pri:0, instance:pack.fcb1@5939a379]" started-at="2021-02-06T09:24:35 CET" name="avant" finished-at="2021-02-06T09:25:34 CET" duration-ms="59059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- avant -->
+        <test-method signature="Test1(java.lang.String, java.lang.String)[pri:0, instance:pack.fcb1@5939a379]" started-at="2021-02-06T09:25:34 CET" name="Test1" data-provider="getdata" finished-at="2021-02-06T09:25:34 CET" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[login3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mdp3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- pack.fcb1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
